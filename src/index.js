@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Parent from './parent-child/Parent';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import LoaderWithAPICall from "./api-call-with-loader/LoaderWithAPICall";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/parent" element={<Parent />}></Route>
+        <Route path="/loader" element={<LoaderWithAPICall />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

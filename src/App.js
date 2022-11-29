@@ -10,7 +10,7 @@ function App() {
               <br/>
               <Link to="/parent">Parent child</Link>
               <br/>
-              <Link to="/users">Users</Link>
+              <Link to="/loader">LoaderWithAPICall</Link>
               <br/>
         </nav>
       </header>
